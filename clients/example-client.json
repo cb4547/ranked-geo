@@ -1,0 +1,63 @@
+{
+  "_comment": "GEO Agent Team — Client Configuration Schema",
+  "_schema_version": "1.0",
+
+  "domain": "acme-saas.com",
+  "niche": "B2B project management software",
+  "target_audience": "Small to mid-size business operations managers and team leads, 30-50 employees, non-technical",
+
+  "competitors": [
+    "asana.com",
+    "monday.com",
+    "clickup.com",
+    "notion.so",
+    "basecamp.com"
+  ],
+
+  "target_queries": [
+    "what is project management software",
+    "best project management tools for small business",
+    "how to manage a project team",
+    "project management software vs spreadsheets",
+    "how does kanban work",
+    "project management software pricing comparison",
+    "what is agile project management",
+    "how to track project deadlines",
+    "team collaboration tools",
+    "project status report template",
+    "how to set project milestones",
+    "gantt chart explained",
+    "what is a sprint in project management",
+    "project management for remote teams",
+    "how to prioritize tasks in a project",
+    "project management certification worth it",
+    "free project management tools",
+    "project management software for construction",
+    "what is a project management office PMO",
+    "how to create a project plan",
+    "best project management methodology",
+    "project management vs task management",
+    "how to manage multiple projects at once",
+    "project management KPIs",
+    "project risk management basics",
+    "project stakeholder management",
+    "project management tools comparison 2024",
+    "how to onboard team to project management software",
+    "project management software for marketing teams",
+    "project management software for agencies"
+  ],
+
+  "brand_voice_cache": null,
+
+  "max_budget_usd": 5,
+
+  "_field_descriptions": {
+    "domain": "The client's primary website domain (no https:// prefix)",
+    "niche": "Specific niche/industry description — be specific, not generic",
+    "target_audience": "Detailed description of the ideal reader — role, company size, sophistication level",
+    "competitors": "Up to 5 competitor domains to monitor (no https:// prefix)",
+    "target_queries": "30-50 search queries to track for AI visibility. Mix of: definitions, how-tos, comparisons, and use-case queries",
+    "brand_voice_cache": "Path to a previously extracted brand voice JSON file, relative to geo-team/ directory. Set to null to re-extract. Example: 'clients/acme-saas-brand-voice.json'",
+    "max_budget_usd": "Maximum USD budget for this run across all agents. Default: 5. Increase for more thorough research."
+  }
+}
