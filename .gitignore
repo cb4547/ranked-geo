@@ -1,0 +1,36 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+
+# TypeScript build output
+dist/
+*.js.map
+*.d.ts
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# Runtime outputs (generated per client run — not committed)
+outputs/
+logs/
+
+# Brand voice cache (contains client-specific data)
+clients/**/brand-voice-cache.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Keep the example client config
+!clients/example-client.json
