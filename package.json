@@ -1,0 +1,22 @@
+{
+  "name": "geo-team",
+  "version": "1.0.0",
+  "description": "GEO Agent Team — Generative Engine Optimization multi-agent system",
+  "main": "run.ts",
+  "scripts": {
+    "start": "ts-node run.ts",
+    "run:client": "ts-node run.ts",
+    "dashboard": "node dashboard.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "latest",
+    "typescript": "^5.4.0",
+    "ts-node": "^10.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
